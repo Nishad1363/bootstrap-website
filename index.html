@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Enrollment</title>
+  <!-- Internal Styles -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #cbd2da;
+      color: #343a40;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0863cc;
+    }
+
+    .container {
+      background-color: rgb(248, 245, 245);
+      border: 1px solid #3a4652;
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    img {
+      max-width: 50%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #dee2e6;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+  </style>
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Course Enrollment</h1>
+
+    <img src="mit.jpeg" alt="mit logo">
+
+    <p>Explore our exciting courses and enroll today!</p>
+
+    <h2>Available Courses</h2>
+    <ul>
+      <li><a href="#">FSD</a></li>
+      <li><a href="#">WMDS</a></li>
+      <li><a href="#">SMCL</a></li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Instructor</th>
+        <th>Enroll</th>
+      </tr>
+      <tr>
+        <td>FSD</td>
+        <td>Aniket Sir</td>
+        <td><button class="btn btn-primary">Enroll</button></td>
+      </tr>
+      <tr>
+        <td>WMDS</td>
+        <td>Vinayak Sir</td>
+        <td><button class="btn btn-primary">Enroll</button></td>
+      </tr>
+      <tr>
+        <td>SMCL</td>
+        <td>Dhanasshri Ma'am</td>
+        <td><button class="btn btn-primary">Enroll</button></td>
+      </tr>
+    </table>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" class="form-control" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" class="form-control" required>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+    <div>
+      <p>For more information, visit our <a href="about.html" target="_blank">About Us</a> page.</p>
+    </div>
+  </div>
+
+  <!-- External Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
